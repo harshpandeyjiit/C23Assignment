@@ -1,18 +1,13 @@
-#navbar {
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-}
+
 #navbar ul {
-  display: -webkit-box;
+  
   display: flex;
   align-content: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+ justify-content: center;
 }
 #navbar ul li {
   padding: 20px;
+  list-style: none;
 }
 #navbar ul li a {
   text-transform: uppercase;
@@ -23,15 +18,17 @@
   padding: 1em;
   white-space: nowrap;
   letter-spacing: 1px;
+  
 }
 #navbar ul li a:hover {
   border-bottom: 3px solid #fff;
+  
 }
 
 .header {
   padding: 20px;
   height: 100vh;
-  background: url(https://wallpapercave.com/wp/wp1859031.jpg) no-repeat center center;
+  background: url("Dhoni.jpg") no-repeat center;
   background-size: cover;
   position: relative;
 }
@@ -46,105 +43,36 @@
 .header .content {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   text-align: center;
 }
 
 .flex1 {
-  display: -webkit-box;
   display: flex;
   color: white;
   padding: 100px 150px 150px 100px;
   position: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000428), to(#004e92));
   background: linear-gradient(to bottom, #000428, #004e92);
 }
-.flex1-child {
-  -webkit-box-flex: 1;
-          flex: 1;
-}
-.flex1 h1 {
-  font-size: 325%;
-  text-align: center;
-}
+
+
 .flex1 p {
   font-weight: 400%;
   font-family: serif;
   font-size: 150%;
 }
 
-.flex2 {
-  display: -webkit-box;
-  display: flex;
-  color: white;
-  padding: 100px 150px 150px 100px;
-  position: center;
-  background: url(https://st1.latestly.com/wp-content/uploads/2020/07/MS-Dhoni-HD-Wallpapers-in-Chennai-Super-Kings-Jersey.jpg) no-repeat center center;
-}
-.flex2-child {
-  -webkit-box-flex: 1;
-          flex: 1;
-}
 .flex2 h1 {
   font-size: 325%;
   text-align: center;
 }
-.flex2 p {
-  font-weight: 400%;
-  font-family: sans-serif;
-  font-size: 150%;
-  padding-left: 3%;
-  padding-right: 3%;
-}
+  
 
-.flex {
-  display: -webkit-box;
-  display: flex;
-  color: white;
-  padding-left: 3%;
-  padding-right: 3%;
-  position: center;
-}
-.flex-child {
-  -webkit-box-flex: 1;
-          flex: 1;
-}
-
-.flex--vertical {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-.flex--vertical > .flex-child {
-  padding-left: 3%;
-  padding-right: 3%;
-  min-width: 100%;
-}
 
 ul li {
   padding: 10px 10px 10px 10px;
-  font-align: center;
+  
 }
 
-.achievements-section {
-  background: url(https://wallpapercave.com/wp/wp2754587.jpg) center;
-  padding: 90px 0 90px;
-  color: white;
-  font-weight: bold;
-}
 
-.achievements-section h2 {
-  margin-bottom: 40px;
-}
 
-.achievements-section .container {
-  padding: 0 35px;
-}
-
-.achievements-section ul > li {
-  padding-bottom: 25px;
-}
